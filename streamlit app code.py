@@ -72,5 +72,4 @@ if show_adjusted:
 if show_prediction:
     st.subheader("Predicted Prices")
     st.dataframe(df[['Name of the Hotel', 'Dzongkhag', 'Rate (Nu)', 'Adjusted Rate (Nu)', 'Predicted Price (Nu)']])
-pip install streamlit pandas scikit-learn
-streamlit run streamlit_app.py
+
